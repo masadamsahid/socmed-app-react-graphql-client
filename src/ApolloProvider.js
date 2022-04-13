@@ -4,7 +4,7 @@ import { ApolloClient, InMemoryCache, createHttpLink, ApolloProvider} from "@apo
 import { setContext } from 'apollo-link-context'
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000'
+  uri: 'https://secret-basin-62497.herokuapp.com'
 })
 
 const authLink = setContext((req, prevContext) => {

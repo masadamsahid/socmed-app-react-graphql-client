@@ -46,5 +46,6 @@
   },
   "devDependencies": {
     "@semantic-ui-react/css-patch": "^1.0.0"
-  }
+  },
+  "proxy": "https://secret-basin-62497.herokuapp.com"
 }
